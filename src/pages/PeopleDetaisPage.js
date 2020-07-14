@@ -16,8 +16,7 @@ export default class PeopleDetaisPage extends React.Component {
                     <Line label="Tel:" content={ people.phone }/>
                     <Line label="Cel:" content={ people.cell }/>
                     <Line label="Nacionalidade:" content={ people.nat }/>
-                </View>
-                
+                </View> 
             </View>
         );
     }
