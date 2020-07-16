@@ -1,4 +1,5 @@
-import { createAppContainer, createStackNavigator } from 'react-navigation';
+import { createAppContainer } from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
 import PeoplePage from './src/pages/PeoplePage';
 import PeopleDetaisPage from './src/pages/PeopleDetaisPage';
 import { capitalizeFirstLetter } from './src/util';
